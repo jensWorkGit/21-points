@@ -10,8 +10,8 @@ spring:
     datasource:
         dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
         url: jdbc:postgresql://localhost/health
-        username: health
-        password: health
+        username: jens
+        password: test
 
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQL82Dialect
