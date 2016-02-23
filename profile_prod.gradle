@@ -22,6 +22,12 @@ processResources {
     }
 }
 
+node {
+    download = true
+    version = '4.2.3'
+}
+
+
 task setProdProperties(dependsOn: bootRun) << {
     doFirst {
         System.setProperty('spring.profiles.active', 'prod')
